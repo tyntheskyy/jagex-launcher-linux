@@ -20,7 +20,6 @@ script:
   wine:
     overrides:
       jscript.dll: native
-    version: lutris-GE-Proton8-14-x86_64
   installer:
     - task:
         name: create_prefix
